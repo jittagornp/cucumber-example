@@ -5,7 +5,7 @@ Feature: Calculator
     When x plus y
     Then the result should be 3
 
- Scenario: add2
+  Scenario: add2
     Given x is 10 and y is 20
     When x plus y
     Then the result should be 30
